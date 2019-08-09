@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:padding="16dp">
+
+
+    <EditText
+
+            android:id="@+id/timerNameNumberPicker"
+            android:fontFamily=""
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Timer Name"
+            android:importantForAutofill="no"/>
+
+
+    <NumberPicker android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@+id/timerName"
+                  android:id="@+id/minsPicker"
+                  android:layout_alignParentStart="true" android:layout_marginTop="23dp"
+                  android:layout_marginStart="110dp"/>
+
+    <NumberPicker android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_toRightOf="@id/minsPicker"
+                  android:layout_below="@id/timerName"
+                  android:id="@+id/secsPicker"
+                  android:layout_marginLeft="28dp"
+                  android:layout_marginTop="23dp"
+                  android:layout_marginRight="106dp"
+    />
+
+
+
+
+
+</RelativeLayout>
